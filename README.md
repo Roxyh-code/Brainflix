@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="docs/assets/brainflix-cover.svg" alt="Brainflix — original illustrated video viewing and publishing interface" width="100%" />
-  <h1>Brainflix</h1>
+  <h1>Brainflix ▶</h1>
   <p><strong>A video experience, built from scratch.</strong></p>
   <p>A hands-on video-platform project featuring dynamic video detail pages, recommendations, a comment interface, and a Node.js / Express API.</p>
+  <img src="docs/screenshots/video-detail.png" alt="Authentic Brainflix React video detail page showing the video player, BMX Rampage title, metadata and recommended videos" width="100%" />
+  <p><small>Actual React app screenshot · Video detail &amp; recommendations</small></p>
   <p><strong>Independently hand-coded · Pre-AI-assisted development portfolio project</strong></p>
   <p><a href="#features">Explore features</a> · <a href="#architecture">Architecture</a> · <a href="#run-locally">Run locally</a></p>
   <p>
@@ -13,7 +14,7 @@
   </p>
 </div>
 
-> **Portfolio note:** This is a historical project written by hand before AI coding assistants became part of my development workflow. The cover is an **original illustrative product graphic**, not an application screenshot. The project is a learning/portfolio implementation—not a commercial video-hosting service.
+> **Portfolio note:** This is a historical project written by hand before AI coding assistants became part of my development workflow. The README displays **authentic browser screenshots of the React app**, not illustrative mockups. The project is a learning/portfolio implementation—not a commercial video-hosting service.
 
 ---
 
@@ -56,8 +57,17 @@ flowchart LR
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/roxanehe/ruoxin-he-brainflix/main/src/assets/Logo/BrainFlix-logo.svg" alt="Brainflix logo from the original frontend source repository" width="245" />
-  <p><small>Logo asset from the original React frontend repository. The illustrated banner above represents the intended layout, rather than a live screenshot.</small></p>
+  <p><small>Logo asset from the original React frontend repository. The screenshots above show the actual application running in Chromium.</small></p>
 </div>
+
+### Actual application screens
+
+<div align="center">
+  <img src="docs/screenshots/upload-metadata.png" alt="Actual Brainflix video metadata upload form with thumbnail preview, title and description inputs and a Publish action" width="100%" />
+  <p><small>Upload form · Creates a video metadata record through the Express API; this is not binary video file upload.</small></p>
+</div>
+
+The screenshots were captured from the source repositories at their current state, with case-sensitive import spelling corrected **temporarily in the screenshot environment only**. The application repositories were not modified.
 
 ## What I implemented
 
@@ -168,7 +178,7 @@ npm run build
 ```text
 Brainflix/                      # Portfolio wrapper
 ├── README.md                   # This documentation
-├── docs/assets/                # Original README illustration
+├── docs/screenshots/           # Authentic app screenshots
 ├── ruoxin-he-brainflix         # Gitlink to React frontend
 └── ruoxin-he-brainflix-api     # Gitlink to Express API
 
